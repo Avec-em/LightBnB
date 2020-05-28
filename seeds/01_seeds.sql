@@ -11,8 +11,8 @@
 --   parking_spaces, 
 --   number_of_bathrooms, 
 --   number_of_bedrooms, 
---   thumbnail_url_photo, 
---   cover_url_photo, 
+--   thumbnail_photo_url, 
+--   cover_photo_url, 
 --   street, 
 --   city, 
 --   province, 
@@ -74,13 +74,13 @@
 --   '2020-07-02', '2020-07-04', 2, 1
 -- );
 
-INSERT INTO property_reviews (
-  message, rating, user_id, property_id, reservation_id
-)
-VALUES (
+-- INSERT INTO property_reviews (
+--   message, rating, user_id, property_id, reservation_id
+-- )
+-- VALUES (
 --   'good', 5, 2, 1, 1
--- ), 
-  'ok', 3, 2, 3, 2
-), (
-  'best!', 5, 2, 3, 3
-);
+-- ), (
+--   'ok', 3, 2, 3, 2
+-- ), (
+--   'best!', 5, 2, 3, 3
+-- );
